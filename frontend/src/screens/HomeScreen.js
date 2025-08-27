@@ -1,12 +1,13 @@
 // screens/HomeScreen.js
 
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom'; // useParams ko import kiya
 import axios from 'axios';
 import Product from '../components/Product';
-import { motion } from 'framer-motion'; // Framer Motion ko import kiya
+import { motion } from 'framer-motion';
 
 const HomeScreen = () => {
-  // Yahaan humne _useState ko = useState se theek kar diya hai
+  const { keyword } = useParams(); // URL se search keyword nikala
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -15,7 +16,8 @@ const HomeScreen = () => {
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        const { data } = await axios.get('http://localhost:5000/api/products');
+        // Ab hum search keyword ke saath API call karenge
+        const { data } = await axios.get(`http://localhost:5000/api/products?keyword=${keyword || ''}`);
         setProducts(data);
         setLoading(false);
       } catch (err) {
@@ -25,28 +27,26 @@ const HomeScreen = () => {
     };
 
     fetchProducts();
-  }, []);
+  }, [keyword]); // useEffect ab keyword change hone par bhi chalega
 
-  // Grid container ke liye animation variants banaye
   const gridContainerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1, // Har card ke beech 0.1s ka delay
+        staggerChildren: 0.1,
       },
     },
   };
 
   return (
     <div>
-      <h1>Latest Products</h1>
+      <h1>{keyword ? `Results for "${keyword}"` : 'Latest Products'}</h1>
       {loading ? (
         <h2>Loading...</h2>
       ) : error ? (
         <h3>Error: {error}</h3>
       ) : (
-        // div ko motion.div se badal diya aur variants add kiye
         <motion.div
           className="product-grid"
           variants={gridContainerVariants}
