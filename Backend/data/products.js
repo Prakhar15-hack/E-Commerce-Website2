@@ -1,0 +1,98 @@
+// data/products.js
+
+const products = [
+  // GPUs
+  {
+    name: 'NVIDIA GeForce RTX 4090',
+    image: '/images/gpu-4090.jpg',
+    description: 'The ultimate GPU for gamers and creators. Unprecedented performance and realism.',
+    brand: 'NVIDIA',
+    category: 'Graphics Card',
+    price: 180000,
+    countInStock: 5,
+    rating: 4.9,
+    numReviews: 32,
+  },
+  {
+    name: 'NVIDIA GeForce RTX 4080',
+    image: '/images/gpu-4080.jpg',
+    description: 'High-end performance for 4K gaming. A perfect blend of power and efficiency.',
+    brand: 'NVIDIA',
+    category: 'Graphics Card',
+    price: 115000,
+    countInStock: 10,
+    rating: 4.8,
+    numReviews: 25,
+  },
+  {
+    name: 'AMD Radeon RX 7900 XTX',
+    image: '/images/gpu-7900xtx.jpg',
+    description: 'Top-tier performance from AMD with chiplet design, ready for next-gen gaming.',
+    brand: 'AMD',
+    category: 'Graphics Card',
+    price: 95000,
+    countInStock: 8,
+    rating: 4.7,
+    numReviews: 22,
+  },
+  // CPUs
+  {
+    name: 'Intel Core i9-13900K',
+    image: '/images/cpu-i9.jpg',
+    description: 'The flagship processor for enthusiasts who demand the best in gaming and creation.',
+    brand: 'Intel',
+    category: 'CPU',
+    price: 52000,
+    countInStock: 15,
+    rating: 4.9,
+    numReviews: 28,
+  },
+  {
+    name: 'AMD Ryzen 9 7950X',
+    image: '/images/cpu-ryzen9.jpg',
+    description: 'The ultimate processor for productivity and content creation with 16 cores.',
+    brand: 'AMD',
+    category: 'CPU',
+    price: 55000,
+    countInStock: 12,
+    rating: 4.8,
+    numReviews: 30,
+  },
+  // Keyboards
+  {
+    name: 'Razer Huntsman V2 Analog',
+    image: '/images/keyboard-razer.jpg',
+    description: 'Analog optical switches for nuanced control. A premium gaming keyboard.',
+    brand: 'Razer',
+    category: 'Keyboard',
+    price: 21000,
+    countInStock: 20,
+    rating: 4.7,
+    numReviews: 18,
+  },
+  {
+    name: 'Corsair K100 RGB Optical',
+    image: '/images/keyboard-corsair.jpg',
+    description: 'Feature-packed with optical switches and a control wheel for ultimate customization.',
+    brand: 'Corsair',
+    category: 'Keyboard',
+    price: 19500,
+    countInStock: 18,
+    rating: 4.6,
+    numReviews: 15,
+  },
+  // Monitors
+  {
+    name: 'ASUS ROG Swift PG279QM',
+    image: '/images/monitor-asus.jpg',
+    description: '27-inch QHD 240Hz fast IPS gaming monitor for professional esports gamers.',
+    brand: 'ASUS',
+    category: 'Monitor',
+    price: 75000,
+    countInStock: 7,
+    rating: 4.8,
+    numReviews: 12,
+  },
+];
+
+module.exports = products;

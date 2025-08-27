@@ -1,0 +1,737 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 5140
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 22 Tf
+25.2999999999999972 TL
+0 g
+42.5196850393700814 799.3703149606299121 Td
+(E-commerce Project: Complete Study Guide) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 779.5277952755905062 Td
+(Yeh guide aapko project mein use hui har technology ko samajhne mein madad karegi.) Tj
+ET
+42.5196850393700814 759.6852755905511003 m
+552.7603149606298985 759.6852755905511003 l
+S
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+42.5196850393700814 739.8427559055118081 Td
+(MERN Stack Kya Hai?) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 720.0002362204724022 Td
+(Humne is project ko MERN Stack par banaya hai. MERN ek acronym \(short form\) hai:) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 700.15771653543311 Td
+(• MongoDB: Database) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 680.3151968503937042 Td
+(• Express.js: Backend Framework) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 660.4726771653542983 Td
+(• React.js: Frontend Library) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 640.6301574803148924 Td
+(• Node.js: Backend Environment) Tj
+ET
+42.5196850393700814 620.7876377952754865 m
+552.7603149606298985 620.7876377952754865 l
+S
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+42.5196850393700814 600.9451181102361943 Td
+(Backend \(Website ka Engine\)) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 581.1025984251967884 Td
+(Backend woh hissa hai jo server par chalta hai aur user ko dikhta nahi hai. Yeh saara data manage karta) Tj
+T* (hai.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 541.4175590551180903 Td
+(1. Node.js) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 521.5750393700786844 Td
+(• Yeh Kya Hai? Yeh ek JavaScript ka "Runtime Environment" hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 501.7325196850393354 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 481.8899999999999295 Td
+(  - Node.js kya hai? \(Yeh ek environment hai, language nahi\).) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 462.0474803149605805 Td
+(  - `npm` \(Node Package Manager\) kya hai? \(Yeh Node.js ka library/store hai\).) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 442.2049606299212314 Td
+(2. Express.js) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 422.3624409448818255 Td
+(• Yeh Kya Hai? Yeh Node.js ka ek framework hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 402.5199212598424765 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 382.6774015748030706 Td
+(  - Routes kya hote hain? \(`app.use\('/api/products', ...\)`\)) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 362.8348818897637216 Td
+(  - Middleware kya hota hai? \(`authMiddleware.js`\)) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 342.9923622047243725 Td
+(3. MongoDB \(Atlas\)) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 323.1498425196849666 Td
+(• Yeh Kya Hai? Yeh hamara database hai. Yeh ek NoSQL database hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 303.3073228346455608 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 283.4648031496062686 Td
+(  - NoSQL vs SQL database mein kya fark hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 263.6222834645668627 Td
+(  - Collections aur Documents kya hote hain?) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 243.7797637795274568 Td
+(4. Mongoose) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 223.9372440944881646 Td
+(• Yeh Kya Hai? Yeh Express.js aur MongoDB ke beech ka translator hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 204.0947244094487587 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 184.2522047244093528 Td
+(  - Schema aur Model kya hote hain? \(`productModel.js`\)) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 164.4096850393699469 Td
+(5. bcrypt.js aur JWT \(JSON Web Tokens\)) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 144.5671653543306547 Td
+(• Yeh Kya Hain? Yeh dono security ke liye hain.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 124.7246456692912489 Td
+(  - bcrypt.js: Password ko encrypt \(hash\) karta hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 104.882125984251843 Td
+(  - JWT: Login karne par user ko ek "Token" \(digital ID card\) deta hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 85.0396062992125508 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 65.1970866141731449 Td
+(  - Password Hashing kyun zaroori hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 45.354566929133739 Td
+(  - Token-based authentication kaise kaam karta hai?) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 4729
+>>
+stream
+0.5670000000000001 w
+0 G
+42.5196850393700814 799.3703149606299121 m
+552.7603149606298985 799.3703149606299121 l
+S
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+42.5196850393700814 779.5277952755905062 Td
+(Frontend \(Website ka Showroom\)) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 759.6852755905511003 Td
+(Frontend woh hissa hai jo user ko browser mein dikhta hai.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 739.8427559055118081 Td
+(1. React.js) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 720.0002362204724022 Td
+(• Yeh Kya Hai? Yeh ek JavaScript library hai jisse User Interfaces \(UI\) banaye jaate hain.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 700.15771653543311 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 680.3151968503937042 Td
+(  - Components, State \(`useState`\), Props, aur Hooks \(`useEffect`\) kya hote hain?) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 660.4726771653542983 Td
+(2. React Router DOM) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 640.6301574803148924 Td
+(• Yeh Kya Hai? Yeh library website mein alag-alag pages \(routes\) manage karti hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 620.7876377952754865 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 600.9451181102361943 Td
+(  - `<Router>`, `<Routes>`, `<Route>` components kya karte hain?) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 581.1025984251967884 Td
+(3. Axios) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 561.2600787401574962 Td
+(• Yeh Kya Hai? Yeh frontend ka "delivery boy" hai jo backend se data laata hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 541.4175590551180903 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 521.5750393700786844 Td
+(  - `axios.get\(\)` aur `axios.post\(\)` kya karte hain?) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 501.7325196850393354 Td
+(4. Redux Toolkit) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 481.8899999999999295 Td
+(• Yeh Kya Hai? Yeh ek "State Management" library hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 462.0474803149605805 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 442.2049606299212314 Td
+(  - Store, Slice, Reducer, Action kya hote hain?) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+42.5196850393700814 422.3624409448818255 Td
+(5. Framer Motion) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 402.5199212598424765 Td
+(• Yeh Kya Hai? Yeh ek animation library hai.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 382.6774015748030706 Td
+(• Aapko Kya Padhna Hai?) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 362.8348818897637216 Td
+(  - `motion.div` component kya karta hai?) Tj
+ET
+42.5196850393700814 342.9923622047243157 m
+552.7603149606298985 342.9923622047243157 l
+S
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+42.5196850393700814 323.1498425196849666 Td
+(Viva ke liye Tip) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 303.3073228346455608 Td
+(Agar aapse poocha jaaye ki "Jab user kisi product par click karta hai, toh kya hota hai?", toh aap aise) Tj
+T* (samjha sakte ho:) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 263.6222834645668627 Td
+(1. "Sir/Mam, React Router URL ko `/product/123` mein badal deta hai.") Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 243.7797637795274568 Td
+(2. "Isse hamara `ProductScreen` component load hota hai.") Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 223.9372440944881646 Td
+(3. "Component load hote hi, `useEffect` hook chalta hai, jo Axios ka use karke backend ko) Tj
+T* (request bhejta hai.") Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 184.2522047244093528 Td
+(4. "Backend mein, Express.js is request ko receive karta hai.") Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 164.4096850393699469 Td
+(5. "Wahan, Mongoose database se us ID waale product ko dhoondta hai.") Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 144.5671653543306547 Td
+(6. "Express usko JSON format mein wapas Axios ko bhejta hai.") Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0 g
+42.5196850393700814 124.7246456692912489 Td
+(7. "Frontend mein, Axios us data ko receive karke `useState` se state mein daal deta hai, aur) Tj
+T* (humein screen par details dikh jaati hain.") Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20250826001136+05'30')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000010262 00000 n 
+0000012087 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000005344 00000 n 
+0000005481 00000 n 
+0000010325 00000 n 
+0000010450 00000 n 
+0000010580 00000 n 
+0000010713 00000 n 
+0000010851 00000 n 
+0000010975 00000 n 
+0000011104 00000 n 
+0000011236 00000 n 
+0000011372 00000 n 
+0000011500 00000 n 
+0000011627 00000 n 
+0000011756 00000 n 
+0000011889 00000 n 
+0000011991 00000 n 
+0000012337 00000 n 
+0000012423 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <DD87FBBCA6CD2DBC0CBDB1BDD473E990> <DD87FBBCA6CD2DBC0CBDB1BDD473E990> ]
+>>
+startxref
+12527
+%%EOF
