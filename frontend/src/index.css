@@ -1,40 +1,68 @@
-/* index.css */
+/* index.css - Final Dark Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #00aaff;
+  --background-color: #121212;
+  --surface-color: #1e1e1e;
+  --text-color: #e0e0e0;
+  --text-secondary-color: #a0a0a0;
+  --border-color: #2c2c2c;
+}
+
+/* Smooth Scrolling ke liye */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f0f2f5;
 }
 
-h1,
-h2,
-h3 {
-  color: #1a202c;
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 600;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-color);
 }
 
 .main-container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 2rem;
   min-height: 80vh;
 }
 
 /* Header Styling */
 .header {
-  background-color: #1a202c;
+  background-color: rgba(30, 30, 30, 0.8);
+  backdrop-filter: blur(10px);
   color: #ffffff;
   padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,422 +70,90 @@ a {
 
 .brand {
   font-size: 1.5rem;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--primary-color);
 }
 
-.nav-links a {
-  margin-left: 1.5rem;
-  transition: color 0.2s ease-in-out;
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* Links ke beech mein space add kiya */
 }
 
 .nav-links a:hover {
-  color: #a0aec0;
-}
-
-.nav-links i {
-  margin-right: 0.5rem;
+  color: var(--primary-color);
 }
 
 /* Footer Styling */
 .footer {
-  background-color: #1a202c;
-  color: #ffffff;
+  background-color: #1e1e1e;
+  color: var(--text-secondary-color);
   text-align: center;
-  padding: 1rem;
+  padding: 3rem 2rem; /* Padding badhayi */
+  margin-top: 2rem;
+  border-top: 1px solid var(--border-color);
 }
 
-
-/* Product Card Styling */
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+.footer-content h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
 }
 
-.card {
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+.contact-details p {
+    margin: 0.5rem 0;
+    line-height: 1.8;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+.contact-details i {
+    color: var(--primary-color);
+    margin-right: 1rem;
 }
 
-.product-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+.copyright-text {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 1.5rem;
 }
 
-.card-body {
-  padding: 1rem;
+/* Product Card, Form, Single Product, etc. */
+.product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem; }
+.card { background-color: var(--surface-color); border: 1px solid var(--border-color); border-radius: 10px; overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.card:hover { transform: translateY(-8px); box-shadow: 0 10px 20px rgba(0, 170, 255, 0.1); }
+.product-image { width: 100%; height: 200px; object-fit: cover; border-bottom: 1px solid var(--border-color); }
+.card-body { padding: 1.5rem; }
+.card-title strong { color: #ffffff; }
+.card-price { font-size: 1.5rem; font-weight: bold; color: var(--primary-color); margin-top: 0.5rem; margin-bottom: 0.5rem; }
+.card-body p { color: var(--text-secondary-color); }
+.back-button { background-color: var(--surface-color); color: var(--text-color); border: 1px solid var(--border-color); display: inline-block; margin-bottom: 1rem; padding: 0.5rem 1rem; border-radius: 5px; transition: background-color 0.2s; }
+.back-button:hover { background-color: var(--primary-color); color: #ffffff; border-color: var(--primary-color); }
+.action-card { background-color: var(--surface-color); border: 1px solid var(--border-color); border-radius: 10px; padding: 1.5rem; }
+.add-to-cart-btn { background-color: var(--primary-color); color: #ffffff; width: 100%; padding: 0.75rem; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem; transition: background-color 0.2s; }
+.add-to-cart-btn:hover:not(:disabled) { background-color: #0088cc; }
+.form-container { max-width: 500px; margin: 2rem auto; padding: 2rem; background-color: var(--surface-color); border-radius: 10px; border: 1px solid var(--border-color); }
+.form-group { margin-bottom: 1.5rem; }
+.form-group label { display: block; margin-bottom: 0.5rem; font-weight: 500; color: var(--text-secondary-color); }
+.form-group input { width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 5px; box-sizing: border-box; background-color: var(--background-color); color: var(--text-color); font-size: 1rem; }
+.form-btn { width: 100%; padding: 0.75rem; background-color: var(--primary-color); color: #ffffff; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem; font-weight: 600; transition: background-color 0.2s; }
+.form-btn:hover { background-color: #0088cc; }
+.form-footer { margin-top: 1.5rem; text-align: center; color: var(--text-secondary-color); }
+.form-footer a { color: var(--primary-color); font-weight: 500; }
+/* Cart Badge Styling */
+.cart-link {
+  position: relative; /* Badge ko iske relative position karne ke liye */
 }
 
-.card-title {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-}
-
-.card-price {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #2d3748;
-}
-
-/* Single Product Screen Styling */
-.product-screen-container {
-  padding: 1rem;
-}
-
-.back-button {
-  display: inline-block;
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #2d3748;
-  color: white;
-  border-radius: 5px;
-  transition: background-color 0.2s;
-}
-
-.back-button:hover {
-  background-color: #4a5568;
-}
-
-.product-details-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
-.product-detail-image {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.product-info p {
-  line-height: 1.6;
-}
-
-.action-card {
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  padding: 1rem;
-}
-
-.add-to-cart-btn {
-  width: 100%;
-  padding: 0.75rem;
-  background-color: #2d3748;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.2s;
-}
-
-.add-to-cart-btn:hover:not(:disabled) {
-  background-color: #4a5568;
-}
-
-.add-to-cart-btn:disabled {
-  background-color: #a0aec0;
-  cursor: not-allowed;
-}
-
-.error-message {
-    color: #c53030;
-}
-
-/* Nayi Styling */
-.product-extra-details {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin-top: 3rem;
-}
-
-.spec-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.spec-table td {
-    padding: 0.75rem;
-    border-bottom: 1px solid #e2e8f0;
-}
-
-.review-list {
-    list-style: none;
-    padding: 0;
-}
-
-.review-item {
-    background-color: #ffffff;
-    padding: 1rem;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    border: 1px solid #e2e8f0;
-}
-/* Quantity Selector */
-.qty-selector {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 0;
-}
-
-.qty-selector select {
-  padding: 0.25rem;
-}
-
-/* Cart Screen Styling */
-.cart-container {
-  padding: 1rem;
-}
-
-.cart-empty {
-  font-size: 1.2rem;
-}
-
-.cart-empty a {
-  color: #3182ce;
-  text-decoration: underline;
-}
-
-.cart-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 2rem;
-}
-
-.cart-items-list {
-  display: flex;
-  flex-direction: column;
-}
-
-.cart-item {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-  border-bottom: 1px solid #e2e8f0;
-  background-color: #fff;
-  border-radius: 5px;
-  margin-bottom: 1rem;
-}
-
-.cart-item-image {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-.cart-item-name {
-  flex-grow: 1;
-  font-weight: bold;
-}
-
-.cart-item-price {
-  width: 100px;
-  text-align: right;
-}
-
-.qty-select-cart {
-  padding: 0.5rem;
-  border-radius: 5px;
-}
-
-.remove-btn {
-  background-color: #e53e3e;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 0.5rem 0.75rem;
-  transition: background-color 0.2s;
-}
-
-.remove-btn:hover {
-  background-color: #c53030;
-}
-
-.cart-summary {
-    border: 1px solid #e2e8f0;
-    border-radius: 10px;
-    padding: 1.5rem;
-    background-color: #fff;
-    height: fit-content;
-}
-
-.cart-summary h2 {
-  border-bottom: 1px solid #e2e8f0;
-  padding-bottom: 1rem;
-  margin-top: 0;
-}
-
-.total-price {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.checkout-btn {
-    background-color: #2d3748;
-    color: white;
-    width: 100%;
-    margin-top: 1rem;
-    padding: 0.75rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.2s;
-}
-
-.checkout-btn:hover {
-  background-color: #4a5568;
-}
-/* Form Styling */
-.form-container {
-  max-width: 500px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-
-.form-group input {
-  width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #e2e8f0;
-  border-radius: 5px;
-  box-sizing: border-box; /* Important for padding */
-}
-
-.form-btn {
-  width: 100%;
-  padding: 0.75rem;
-  background-color: #2d3748;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.2s;
-}
-
-.form-btn:hover {
-  background-color: #4a5568;
-}
-
-.form-footer {
-  margin-top: 1rem;
-  text-align: center;
-}
-
-.form-footer a {
-  color: #3182ce;
-  font-weight: bold;
-}
-/* ... (purana saara CSS upar rahega) ... */
-
-/* Header Dropdown Styling */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropbtn {
-  background-color: inherit;
-  color: white;
-  padding: 0;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-}
-
-.dropdown-content {
-  display: none;
+.cart-badge {
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  border-radius: 5px;
-  right: 0; /* Dropdown ko right align karne ke liye */
+  top: -10px; /* Icon ke thoda upar */
+  right: -15px; /* Icon ke thoda right mein */
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 50%; /* Gol shape ke liye */
+  padding: 0.15rem 0.45rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border: 2px solid var(--surface-color); /* Chota sa border */
 }
 
-.dropdown-content a, .logout-button {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  width: 100%;
-  text-align: left;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown-content a:hover, .logout-button:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-/* Profile Screen Styling */
-.profile-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 2rem;
-}
-
-.profile-form, .profile-orders {
-  background-color: #fff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-/* Search Box Styling */
-.search-box {
-  display: flex;
-  flex-grow: 1;
-  margin: 0 2rem;
-}
-
-.search-input {
-  width: 100%;
-  padding: 0.5rem 1rem;
-  border: 1px solid #cbd5e0;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-}
-
-.search-button {
-  padding: 0.5rem 1rem;
-  border: none;
-  background-color: #2d3748;
-  color: white;
-  cursor: pointer;
-  border-radius: 0 5px 5px 0;
-}
+/* ... (baaki ka CSS) ... */

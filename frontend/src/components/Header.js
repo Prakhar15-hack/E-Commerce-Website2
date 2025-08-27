@@ -4,13 +4,15 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { logout } from '../redux/userSlice';
-import SearchBox from './SearchBox'; // SearchBox ko import kiya
+import SearchBox from './SearchBox';
 
 const Header = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const { userInfo } = useSelector((state) => state.user);
+  // Redux store se cart ki info nikal rahe hain
+  const { cartItems } = useSelector((state) => state.cart);
 
   const logoutHandler = () => {
     dispatch(logout());
@@ -24,11 +26,20 @@ const Header = () => {
           ASSEMBLE
         </Link>
         
-        <SearchBox /> {/* SearchBox ko yahaan add kiya */}
+        <SearchBox />
 
         <nav className="nav-links">
-          <Link to="/cart">
+          <Link to="/">Home</Link>
+          <a href="#contact-section">Contact Us</a> 
+
+          <Link to="/cart" className="cart-link"> {/* Cart link ko ek class di */}
             <i className="fas fa-shopping-cart"></i> Cart
+            {/* Agar cart mein items hain, toh unka count dikhao */}
+            {cartItems.length > 0 && (
+              <span className="cart-badge">
+                {cartItems.reduce((acc, item) => acc + item.qty, 0)}
+              </span>
+            )}
           </Link>
           {userInfo ? (
             <div className="dropdown">
