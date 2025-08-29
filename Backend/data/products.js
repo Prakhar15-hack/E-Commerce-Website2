@@ -58,6 +58,30 @@ const products = [
     rating: 4.8,
     numReviews: 30,
   },
+  // RAM
+  {
+    name: 'Corsair Vengeance RGB Pro 32GB DDR5 RAM',
+    image: '/images/ram.jpg',
+    description: 'Illuminate your system with dynamic multi-zone RGB lighting while experiencing peak performance.',
+    brand: 'Corsair',
+    category: 'RAM',
+    price: 11500,
+    countInStock: 20,
+    rating: 4.7,
+    numReviews: 15,
+  },
+  // SSD
+  {
+    name: 'Samsung 980 Pro 2TB NVMe SSD',
+    image: '/images/ssd.jpg',
+    description: 'Unleash the power of the Samsung PCIe 4.0 NVMe SSD 980 PRO for next-level computing.',
+    brand: 'Samsung',
+    category: 'SSD',
+    price: 15000,
+    countInStock: 15,
+    rating: 4.9,
+    numReviews: 22,
+  },
   // Keyboards
   {
     name: 'Razer Huntsman V2 Analog',
@@ -70,17 +94,6 @@ const products = [
     rating: 4.7,
     numReviews: 18,
   },
-  {
-    name: 'Corsair K100 RGB Optical',
-    image: '/images/keyboard-corsair.jpg',
-    description: 'Feature-packed with optical switches and a control wheel for ultimate customization.',
-    brand: 'Corsair',
-    category: 'Keyboard',
-    price: 19500,
-    countInStock: 18,
-    rating: 4.6,
-    numReviews: 15,
-  },
   // Monitors
   {
     name: 'ASUS ROG Swift PG279QM',
@@ -92,6 +105,30 @@ const products = [
     countInStock: 7,
     rating: 4.8,
     numReviews: 12,
+  },
+  // Chair
+  {
+    name: 'Secretlab TITAN Evo 2022 Gaming Chair',
+    image: '/images/chair.jpg',
+    description: 'The new Secretlab TITAN Evo 2022 combines multiple proprietary technologies for next-level comfort.',
+    brand: 'Secretlab',
+    category: 'Gaming Setup',
+    price: 54900,
+    countInStock: 10,
+    rating: 4.9,
+    numReviews: 30,
+  },
+  // Mac Studio
+  {
+    name: 'Apple Mac Studio',
+    image: '/images/macstudio.jpg',
+    description: 'An entirely new Mac desktop with the outrageous performance of the M1 Ultra chip.',
+    brand: 'Apple',
+    category: 'Professional Desktop',
+    price: 199999,
+    countInStock: 4,
+    rating: 5.0,
+    numReviews: 14,
   },
 ];
 
